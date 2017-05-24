@@ -7,9 +7,67 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
   font-weight: 500;
   font-style: normal;
   line-height: 1.42;
+  position: relative;
 }
+
+h1{
+  font-size: 2em;
+  color: white;
+  line-height: 3em;
+  text-align: left;
+  text-decoration: none;
+  font-family: 'Titillium Web', Bold;
+  padding: 10px;
+}
+
+h2{
+  font-size: 1.5em;
+  font-family: 'Crimson Text';
+  font-weight: bold;
+  color: #16253E;
+  line-height: 3em;
+  padding: 10px;
+  margin-left: 100px;
+}
+
+p{
+  color: #16253E;
+  font-family: 'Crimson Text';
+  margin-left: 100px;
+  padding: 10px;
+  position: relative;
+}
+
+h2, 
+p{
+  background-color: rgba(20,115,141,0.6);
+}
+
+.footer{
+  font-size: 1em;
+  font-family: 'Crimson Text';
+  font-weight: bold;
+  color: #16253E;
+  line-height: 3em;
+  background-color: rgba(20,115,141,1.0);
+  padding: 0 0;
+  padding: 20px;
+}
+
+a,
+a:visited {
+    color: rgb(102,195,203);
+    text-decoration: none;
+}
+a:active{
+    color:#822725;
+}
+
+em{
+  color: #822725;
+  font-weight: bold;
+}
+
